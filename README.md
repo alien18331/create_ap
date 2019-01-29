@@ -91,5 +91,5 @@ FreeBSD
     cd create_ap
     sudo make install
     apt-get install util-linux procps hostapd iproute2 iw haveged dnsmasq
-    sudo create wlan0 eth0 "SSID" "Password"
+    sudo create_ap wlan0 eth0 "SSID" "Password"
     % wlan0 is rpi wlan interface, check interface by mac
